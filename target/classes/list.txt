@@ -1,6 +1,0 @@
-sound81.wav;C:\Users\adamk\OneDrive\Desktop\sounds\sound81.wav
-sound82.wav;C:\Users\adamk\OneDrive\Desktop\sounds\sound82.wav
-sound86.wav;C:\Users\adamk\OneDrive\Desktop\sounds\sound86.wav
-sound93.wav;C:\Users\adamk\OneDrive\Desktop\sounds\sound93.wav
-sound94.wav;C:\Users\adamk\OneDrive\Desktop\sounds\sound94.wav
-sound97.wav;C:\Users\adamk\OneDrive\Desktop\sounds\sound97.wav
