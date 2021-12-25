@@ -7,17 +7,17 @@
 <?import javafx.scene.control.Slider?>
 <?import javafx.scene.layout.Pane?>
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="711.0" prefWidth="339.0" fx:controller="com.example.mp3player.HelloController" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
-    <Button fx:id="playBtn" onMouseClicked="#onPlayBtnClick" layoutX="25.0" layoutY="144.0" mnemonicParsing="false" prefWidth="50.0" text="Play" />
-    <Button fx:id="pauseBtn" onMouseClicked="#onPauseBtnClick" layoutX="85.0" layoutY="144.0" mnemonicParsing="false" prefWidth="50.0" text="Pause" />
-    <Button fx:id="stopBtn" onMouseClicked="#onStopBtnClick" layoutX="145.0" layoutY="144.0" mnemonicParsing="false" prefWidth="50.0" text="Stop" />
-    <Button fx:id="prevBtn" onMouseClicked="#onPrevBtnClick" layoutX="205.0" layoutY="144.0" mnemonicParsing="false" prefWidth="50.0" text="Prev" />
-    <Button fx:id="nextBtn" onMouseClicked="#onNextBtnClick" layoutX="265.0" layoutY="144.0" mnemonicParsing="false" prefWidth="50.0" text="Next" />
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="711.0" prefWidth="339.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mp3player.HelloController">
+    <Button fx:id="playBtn" layoutX="25.0" layoutY="144.0" mnemonicParsing="false" onMouseClicked="#onPlayBtnClick" prefWidth="50.0" text="Play" />
+    <Button fx:id="pauseBtn" layoutX="85.0" layoutY="144.0" mnemonicParsing="false" onMouseClicked="#onPauseBtnClick" prefWidth="50.0" text="Pause" />
+    <Button fx:id="stopBtn" layoutX="145.0" layoutY="144.0" mnemonicParsing="false" onMouseClicked="#onStopBtnClick" prefWidth="50.0" text="Stop" />
+    <Button fx:id="prevBtn" layoutX="205.0" layoutY="144.0" mnemonicParsing="false" onMouseClicked="#onPrevBtnClick" prefWidth="50.0" text="Prev" />
+    <Button fx:id="nextBtn" layoutX="265.0" layoutY="144.0" mnemonicParsing="false" onMouseClicked="#onNextBtnClick" prefWidth="50.0" text="Next" />
     <Label layoutY="6.0" text="MP3 Player" />
-    <ProgressBar fx:id="progressBar" onMouseClicked="#onProgressBarClick" layoutX="38.0" layoutY="115.0" prefHeight="18.0" prefWidth="258.0" progress="0.0" />
-    <ListView fx:id="playLst" onMouseClicked="#onPlayLstClick" layoutX="9.0" layoutY="184.0" prefHeight="495.0" prefWidth="320.0" />
-    <Slider layoutX="40.0" layoutY="93.0" />
+    <ProgressBar fx:id="progressBar" layoutX="38.0" layoutY="115.0" prefHeight="18.0" prefWidth="258.0" progress="0.0" />
+    <ListView fx:id="playLst" layoutX="9.0" layoutY="184.0" onMouseClicked="#onPlayLstClick" prefHeight="495.0" prefWidth="320.0" />
+    <Slider fx:id="volume" layoutX="40.0" layoutY="93.0" />
     <Label layoutX="86.0" layoutY="76.0" text="VOLUME" />
-    <Button fx:id="addBtn" onAction="#onAddBtnClick" layoutX="24.0" layoutY="679.0" mnemonicParsing="false" prefWidth="50.0" text="Add" />
+    <Button fx:id="addBtn" layoutX="15.0" layoutY="679.0" mnemonicParsing="false" onAction="#onAddBtnClick" prefWidth="50.0" text="Add" />
+   <Button fx:id="delBtn" layoutX="271.0" layoutY="679.0" mnemonicParsing="false" onAction="#onDelBtnClick" prefWidth="50.0" text="Del" />
 </Pane>
